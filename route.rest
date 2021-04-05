@@ -1,0 +1,28 @@
+GET  http://localhost:3000/people
+
+###
+
+GET  http://localhost:3000/people/606b59a38ddd6141201405a9
+
+###
+
+POST   http://localhost:3000/people
+Content-Type: application/json
+
+{
+    "first_name": "mohamed",
+    "last_name": "marzouk"
+}
+
+###
+
+DELETE http://localhost:3000/people/606b5fc6ba8ad00dbcbbfba9
+
+###
+
+PATCH http://localhost:3000/people/606b54b6ebea73220c72b28b
+Content-Type: application/json
+
+{
+    "first_name":"youssouf"
+}
